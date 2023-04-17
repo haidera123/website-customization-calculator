@@ -943,7 +943,7 @@ window.onload = function () {
       document.getElementById("btn__submit").disabled = true;
       document.getElementById("btn__submit").innerHTML = "Please wait...";
       // these IDs from the previous steps
-      emailjs.sendForm("service_lfm503k", "template_9lkcuqq", this).then(
+      emailjs.sendForm("service_6lblw5w", "template_m1ao7st", this).then(
         function () {
           console.log("SUCCESS!");
           document.getElementById("btn__submit").innerHTML = "Sent";
