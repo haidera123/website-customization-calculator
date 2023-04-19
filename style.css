@@ -460,12 +460,12 @@ input {
   margin-bottom: 3px;
 }
 /* Contact form */
-.form__text--calc{
+.form__text--calc {
   font-size: 15px;
   font-weight: bold;
   display: block;
 }
-#email__form{
+#email__form {
   /* display: none; */
 }
 .form__contact {
@@ -485,7 +485,7 @@ input {
   border: 1px solid #ddd;
   border-radius: 3px;
   width: 100%;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .input__form--calc:focus {
   outline: 0px;
@@ -541,5 +541,13 @@ input {
   }
   .btn__calc {
     margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .marks__calc {
+    top: 31px;
+  }
+  .marker__values ul li {
+    font-size: 9px;
   }
 }
