@@ -545,9 +545,9 @@ input {
 }
 @media screen and (max-width: 340px) {
   .marks__calc {
-    top: 31px;
+    top: 27px;
   }
   .marker__values ul li {
-    font-size: 9px;
+    font-size: 7px;
   }
 }
